@@ -1,0 +1,185 @@
+.container1{
+    background: url('../images/word.png') center center/cover no-repeat;
+    background-color: #F0F6FF;
+    height:  300px;
+    width: 100%;
+    display: flex;
+    flex-direction:  column;
+    align-items: center; 
+     /* box-shadow: inset 0 0 0 100px rgba(0,0,0, 2);  */
+     object-fit: contain;
+
+}
+.container1 > h1{
+    margin-top: 70px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.container1 > h2{
+    color: gray;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.img{
+    margin-top: 150px;
+    width: 80%;
+
+}
+.h3{
+    margin-top: 260px;
+    color: #1c0d02;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.h4{
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.h5{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #847b78;
+}
+
+.pil{
+    margin-top: 30px;
+    font-size: 30px;
+    text-indent: 50px;
+}
+
+.Services{
+    background-color: #f0f8ff		;
+}
+
+.Servwrap1{
+
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 25px;
+    padding: 0 50px;
+
+    @media screen and (max-width: 1000px) {
+        grid-template-columns:1fr 1fr;
+        
+    }
+    @media screen and (max-width: 768px) {
+        grid-template-columns:1fr;
+        padding:0 20px;
+        
+    }
+
+}
+
+.Scard{
+    width: 200;
+    height: 170px;
+    margin-top: 50px;
+    /* background: linear-gradient(to bottom, blue,skyblue); */
+    background: url('../images/card1.png') center center/cover no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    border-radius: 25px;
+     max-height: 340px; 
+    
+    padding: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    transition: all 0.2s ease-in-out; 
+       
+}
+
+ .Scard:hover{
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out; 
+    cursor: pointer;
+} 
+
+
+
+.ServWrap2{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr ;
+    align-items: center;
+    grid-gap: 25px;
+    padding: 0 50px;
+
+    @media screen and (max-width: 1000px) {
+        grid-template-columns:1fr 1fr;
+        
+    }
+    @media screen and (max-width: 768px) {
+        grid-template-columns:1fr;
+        padding:0 20px;
+        
+    }
+
+}
+
+.ServCard2{
+    width: 550px;
+    height: 170px;
+    margin-top: 100px;
+    /* background: linear-gradient(to bottom, blue,skyblue); */
+    background: url('../images/card1.png') center center/cover no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    border-radius: 25px;
+     max-height: 340px; 
+    
+    padding: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    transition: all 0.2s ease-in-out; 
+       
+}
+
+ .ServCard2:hover{
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out; 
+    cursor: pointer;
+} 
+.carh1{
+    color:black;
+    font-size:  20px;
+    text-align: left;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+.cardpa{
+    margin-top: 10px;
+    text-align: left;
+    color: black;
+    font-size: 15px;
+    line-height: 30px;
+    
+} 
+.imgS{
+    margin-top: 10px;
+    width: 500px;
+
+    height: 500px;
+}
+.orange{
+    margin-top: 100px;
+}
+.Footer-icon{
+    margin-top: 100px;
+}
+
